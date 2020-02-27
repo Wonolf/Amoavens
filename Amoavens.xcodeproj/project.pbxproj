@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13553DF7240043A8008BEA4D /* CellController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13553DF6240043A8008BEA4D /* CellController2.swift */; };
+		13553DF924005829008BEA4D /* Detalles1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13553DF824005829008BEA4D /* Detalles1.swift */; };
 		13C7FBA923FD9CAC001E7610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7FBA823FD9CAC001E7610 /* AppDelegate.swift */; };
 		13C7FBAB23FD9CAC001E7610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7FBAA23FD9CAC001E7610 /* SceneDelegate.swift */; };
 		13C7FBAD23FD9CAC001E7610 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7FBAC23FD9CAC001E7610 /* FirstViewController.swift */; };
@@ -14,9 +16,12 @@
 		13C7FBB223FD9CAC001E7610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C7FBB023FD9CAC001E7610 /* Main.storyboard */; };
 		13C7FBB423FD9CAD001E7610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C7FBB323FD9CAD001E7610 /* Assets.xcassets */; };
 		13C7FBB723FD9CAD001E7610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C7FBB523FD9CAD001E7610 /* LaunchScreen.storyboard */; };
+		13C7FBBF23FDB1FB001E7610 /* CellController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7FBBE23FDB1FB001E7610 /* CellController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13553DF6240043A8008BEA4D /* CellController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController2.swift; sourceTree = "<group>"; };
+		13553DF824005829008BEA4D /* Detalles1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detalles1.swift; sourceTree = "<group>"; };
 		13C7FBA523FD9CAC001E7610 /* Amoavens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amoavens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C7FBA823FD9CAC001E7610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C7FBAA23FD9CAC001E7610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		13C7FBB323FD9CAD001E7610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13C7FBB623FD9CAD001E7610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13C7FBB823FD9CAD001E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C7FBBE23FDB1FB001E7610 /* CellController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				13C7FBB323FD9CAD001E7610 /* Assets.xcassets */,
 				13C7FBB523FD9CAD001E7610 /* LaunchScreen.storyboard */,
 				13C7FBB823FD9CAD001E7610 /* Info.plist */,
+				13C7FBBE23FDB1FB001E7610 /* CellController1.swift */,
+				13553DF6240043A8008BEA4D /* CellController2.swift */,
+				13553DF824005829008BEA4D /* Detalles1.swift */,
 			);
 			path = Amoavens;
 			sourceTree = "<group>";
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13553DF924005829008BEA4D /* Detalles1.swift in Sources */,
 				13C7FBAF23FD9CAC001E7610 /* SecondViewController.swift in Sources */,
+				13C7FBBF23FDB1FB001E7610 /* CellController1.swift in Sources */,
 				13C7FBAD23FD9CAC001E7610 /* FirstViewController.swift in Sources */,
 				13C7FBA923FD9CAC001E7610 /* AppDelegate.swift in Sources */,
+				13553DF7240043A8008BEA4D /* CellController2.swift in Sources */,
 				13C7FBAB23FD9CAC001E7610 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
